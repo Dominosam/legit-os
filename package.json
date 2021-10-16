@@ -1,39 +1,43 @@
 {
-  "name": "package",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "11.1.2",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "sass": "^1.43.2"
-  },
-  "author": "Dominik Samsel",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Dominosam/legit-os.git"
-  },
-  "devDependencies": {
-    "@types/node": "^16.11.0",
-    "@types/react": "^17.0.30",
-    "@typescript-eslint/parser": "^5.0.0",
-    "eslint": "^7.32.0",
-    "eslint-config-next": "11.1.2",
-    "eslint-import-resolver-typescript": "^2.5.0",
-    "eslint-plugin-import": "^2.25.2",
-    "typescript": "^4.4.4"
-  },
-  "description": "Browser OS created with ReactJS, NextJS",
-  "bugs": {
-    "url": "https://github.com/Dominosam/legit-os/issues"
-  },
-  "homepage": "https://github.com/Dominosam/legit-os#readme",
-  "main": "next.config.js",
-  "license": "ISC"
+    "name": "package",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "eslint": "eslint .",
+        "stylelint": "stylelint **/*.scss"
+    },
+    "dependencies": {
+        "next": "11.1.2",
+        "react": "17.0.2",
+        "react-dom": "17.0.2",
+        "sass": "^1.43.2"
+    },
+    "author": "Dominik Samsel",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Dominosam/legit-os.git"
+    },
+    "devDependencies": {
+        "@types/node": "^16.11.0",
+        "@types/react": "^17.0.30",
+        "@typescript-eslint/parser": "^5.0.0",
+        "eslint": "^7.32.0",
+        "eslint-config-next": "11.1.2",
+        "eslint-import-resolver-typescript": "^2.5.0",
+        "eslint-plugin-import": "^2.25.2",
+        "stylelint": "^13.13.1",
+        "stylelint-config-standard": "^22.0.0",
+        "typescript": "^4.4.4"
+    },
+    "description": "Browser OS created with ReactJS, NextJS",
+    "bugs": {
+        "url": "https://github.com/Dominosam/legit-os/issues"
+    },
+    "homepage": "https://github.com/Dominosam/legit-os#readme",
+    "main": "next.config.js",
+    "license": "ISC"
 }

@@ -15,7 +15,8 @@
     },
     "plugins": ["import", "react", "@typescript-eslint"],
     "rules": {
-        "import/no-unresolved": "error"
+        "import/no-unresolved": "error",
+        "indent": "off"
     },
     "settings": {
         "import/parsers": {
